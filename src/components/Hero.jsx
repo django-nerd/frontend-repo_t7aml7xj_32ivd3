@@ -19,6 +19,9 @@ export default function Hero() {
           <div className="flex flex-wrap gap-3">
             <a href="#projects" className="rounded-md bg-blue-600 text-white px-5 py-2.5 font-medium hover:bg-blue-700">Explore Projects</a>
             <a href="#contact" className="rounded-md border border-slate-300 px-5 py-2.5 font-medium text-slate-800 hover:bg-slate-50">Get in Touch</a>
+            <a href="/resume.pdf" download className="rounded-md bg-slate-900 text-white px-5 py-2.5 font-medium hover:bg-slate-800">
+              Download Resume
+            </a>
           </div>
         </div>
       </div>
