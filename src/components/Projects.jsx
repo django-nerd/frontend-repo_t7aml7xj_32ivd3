@@ -1,36 +1,7 @@
+import { siteConfig } from '../site.config'
+
 export default function Projects() {
-  const projects = [
-    {
-      title: 'Sales Insights Dashboard',
-      description: 'Interactive dashboard analyzing sales performance across regions, products, and time.',
-      stack: ['Python', 'Pandas', 'Plotly', 'Dash'],
-      link: 'https://github.com/'
-    },
-    {
-      title: 'Customer Churn Model',
-      description: 'Predictive model identifying at-risk customers using classification techniques.',
-      stack: ['Python', 'scikit-learn', 'XGBoost'],
-      link: 'https://github.com/'
-    },
-    {
-      title: 'A/B Testing Toolkit',
-      description: 'Reusable framework for experiment design, power analysis, and result interpretation.',
-      stack: ['Python', 'SciPy', 'Matplotlib'],
-      link: 'https://github.com/'
-    },
-    {
-      title: 'YouTube Analytics Pipeline',
-      description: 'End-to-end pipeline for collecting, transforming, and visualizing channel metrics.',
-      stack: ['Python', 'Airflow', 'BigQuery'],
-      link: 'https://github.com/'
-    },
-    {
-      title: 'Data Cleaning Helpers',
-      description: 'Utility functions to standardize and validate messy datasets across projects.',
-      stack: ['Python', 'Pandas'],
-      link: 'https://github.com/'
-    },
-  ]
+  const { projects } = siteConfig
 
   return (
     <section id="projects" className="py-24 bg-white">

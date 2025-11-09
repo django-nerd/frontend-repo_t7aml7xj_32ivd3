@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
+import { siteConfig } from './site.config'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       </main>
       <footer className="border-t border-slate-200 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-sm text-slate-600 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p>© {new Date().getFullYear()} Your Name — All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {siteConfig.name} — All rights reserved.</p>
           <p>Built with React, Tailwind CSS, and FastAPI.</p>
         </div>
       </footer>
